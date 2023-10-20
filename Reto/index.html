@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Comentarios</title>    
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Comentarios</h1>
+        <div class="comment-form">
+          <label for="comment">Añadir un comentario:</label>
+          <textarea id="comment" rows="4" placeholder="máximo 255 caracteres"></textarea>
+          <p id="counter" class="counter">255</p>
+          <div class="buttons">
+            <button id="submit-comment">Comentar</button>
+            <button id="uppercase-comment">Texto en Mayúsculas</button>
+            <button id="lowercase-comment">Texto en minúsculas</button>
+            <button id="Upperlower">Texto primer caracter en Mayúsculas</button>
+          </div>
+        </div>
+        <div class="comment-box">
+          <ul id="comment-list">
+          </ul>
+        </div>
+    </div>
+    <script src="punto8.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: rgba(28, 128, 94, 0.473);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+div input {
+    width: 63%;
+    margin: 10px 0;
+    height: 10%;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 25%;
+    height: 10%;
+}
